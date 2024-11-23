@@ -12,8 +12,8 @@ def push_data_to_bq(date):
         date (str): The date for which data will be pushed (YYYY-MM-DD).
     """
     try:
-        spreadsheet_id = "1Hl_QrUtkSZgNSg1MIvPukX48JATHCx1KXTErDEI7osg"
-        sheet_name = "Sheet1"
+        spreadsheet_id = "<insert-speadsheet-id>"
+        sheet_name = "<insert-sheet-name>"
 
         gSheetsObj = GoogleSheetsConnector()
 
